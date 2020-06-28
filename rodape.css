@@ -1,0 +1,64 @@
+footer {
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+}
+.logotipo {
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+}
+.logotipo img {
+    width: 20%;
+    vertical-align: middle;
+}
+.redes {
+    width: 100%;
+    text-align: center;
+}
+.redes img {
+    width: 18%;
+}
+.redes ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+}
+@media only screen and (min-width: 450px)
+and (max-width: 769px){
+    footer {
+        clear: both;
+        width: 100%;
+     }
+     .logotipo {
+         width: 50%;
+         float: left;
+         text-align: left;
+     }
+     .redes {
+         width: 50%;
+         float: right;
+     }
+}
+@media only screen and (min-width: 769px) {
+    footer {
+        width: 100%;
+        clear: both;
+        margin-bottom: 3%;
+    }
+    .logotipo {
+        font-size: 1em;
+        width: 45%;
+        float: left;
+        text-align: center;
+     }
+     .logotipo img, .redes img {
+         width: 10%;
+     }
+     .redes {
+         width: 45%;
+         float: right;
+         margin-right: 1%;
+         text-align: center;
+     }
+}
